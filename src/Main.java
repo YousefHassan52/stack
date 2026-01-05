@@ -1,13 +1,45 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-  //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-  // to see how IntelliJ IDEA suggests fixing it.
-  IO.println(String.format("Hello and welcome!"));
+//StackWithArray stackWithArray =new StackWithArray(5);
+//stackWithArray.push(1);
+//stackWithArray.push(2);
+//stackWithArray.push(3);
+//stackWithArray.push(4);
+//
+//stackWithArray.display();
+//int popped= stackWithArray.pop();
+//    System.out.println("popped: "+popped);
+//    stackWithArray.display();
+//    int top = stackWithArray.getTop();
+//    System.out.println("top: "+top);
+//    stackWithArray.pop();
+//    stackWithArray.pop();
+//    stackWithArray.pop();
+//    stackWithArray.pop();
+//    stackWithArray.display();
+//    stackWithArray.push(1);
+//    stackWithArray.push(2);
+//    stackWithArray.push(3);
+//    stackWithArray.push(4);
+//    stackWithArray.push(5);
+//    stackWithArray.push(6);
+//    stackWithArray.display();
+//
 
-  for (int i = 1; i <= 5; i++) {
-    //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-    // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+
+    StackWithLS stack=new StackWithLS();
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+    stack.push(4);
+
+    stack.display();
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.pop();
+    stack.display();
+    System.out.println(stack.getTop());
 }
